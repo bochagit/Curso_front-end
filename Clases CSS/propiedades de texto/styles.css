@@ -1,0 +1,21 @@
+p {
+    color: blue;
+    font-family: Bocha;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline underline;
+    line-height: 1.5;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    text-decoration: line-through;
+    color: red;
+}

@@ -1,0 +1,13 @@
+body {
+    color: #00f;
+}
+
+div {
+    color: #f00;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: revert;
+    font-family: initial;
+}

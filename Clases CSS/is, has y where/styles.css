@@ -1,0 +1,35 @@
+section .elemento1,
+section .elemento2,
+section .elemento3 {
+    color: red;
+}
+
+/* MODIFICANDO LOS ELEMENTOS 1, 2 Y 3 QUE ESTAN DENTRO DE ALGUN SECTION */
+section :is(.elemento1, .elemento2, .elemento3) {
+    color: blue;
+}
+
+section:has(.elemento1) {
+    background-color: yellow;
+}
+
+/* SI A UL LO SIGUE UN DIV, MODIFICAMOS EL UL */
+ul:has(+div) {
+    background-color: green;
+}
+
+div {
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+label:has(input:valid) {
+    color: green;
+}
+
+label:has(input:invalid) {
+    color: red;
+}

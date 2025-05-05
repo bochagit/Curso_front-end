@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Bocha";
+    src: url(fonts/LexendGiga-ExtraLight.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Bocha";
+    src: url(fonts/LexendGiga-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Bocha";
+    src: url(fonts/LexendGiga-Bold.ttf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Bocha";
+    src: url(fonts/LexendGiga-ExtraBold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Bocha";
+    src: url(fonts/LexendGiga-Black.ttf) format("truetype");
+    font-weight: 900;
+}

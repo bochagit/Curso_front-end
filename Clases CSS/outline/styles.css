@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+input {
+    margin: 50px;
+    border: none;
+    border-top: 2px solid #000;
+    outline: 2px solid #00f;
+    outline-offset: 5px;
+    padding: 6px;
+    transition: outline .2s, outline-offset .2s;
+}
+
+input:focus {
+    border-color: #00f;
+    color: #00f;
+}
+
+input:focus-visible {
+    outline: none;
+}

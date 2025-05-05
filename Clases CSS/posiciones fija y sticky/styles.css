@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    position: relative
+}
+
+.overlay {
+    background: linear-gradient(to top, #fff, transparent);
+    position: absolute;
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    padding: 150px;
+    background-color: #00f;
+    position: relative;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    border: 1px solid #000;
+    border-right: 0;
+    box-shadow: 0 0 40px #0009;
+    z-index: 30;
+}
+
+.box-fixed {
+    width: 200px;
+    height: 60px;
+    background-color: #f00;
+    position: sticky;
+    top: 100px;
+    z-index: 40;
+    box-sizing: border-box;
+}
+
+.first {
+    top: 30px;
+}
+
+.first2 {
+    top: 120px;
+}
+
+.first3 {
+    top: 210px;
+}
+
+.last {
+    top: 300px;
+}

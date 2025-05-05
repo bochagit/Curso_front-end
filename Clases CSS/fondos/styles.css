@@ -1,0 +1,24 @@
+body {
+    background-color: #48e;
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background: url("https://cdn.classic-trader.com/I/images/1920_1920_inset/vehicle_ad_standard_image_301a69ce34e4af3af70fbce7de6aa60c.jpg") bottom / cover fixed #f4e;
+}
+
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: #000a
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+}
