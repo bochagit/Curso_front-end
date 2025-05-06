@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    background-color: #48e;
+    flex-direction: column;
+}
+
+.box {
+    margin: auto;
+    padding: 20px 50px;
+    border: 2px solid #000;
+    width: fit-content;
+    transform: rotate(90deg);
+}
