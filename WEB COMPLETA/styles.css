@@ -34,6 +34,8 @@ body, div, ul, nav, header, footer, a ,li , label {
     font-weight: 600;
     position: absolute;
     right: 10px;
+    transform: rotate();
+    transition: transform .5s;
 }
 
 .header__checkbox {
@@ -56,6 +58,10 @@ body, div, ul, nav, header, footer, a ,li , label {
     height: 40vh;
     margin: auto;
     justify-content: space-evenly;
+}
+
+.header__checkbox:checked ~ .header__open-nav-button {
+    transform: rotate(360deg);
 }
 
 .header__checkbox:checked ~ .header__nav {
